@@ -23,12 +23,12 @@ function setup() {
   game.distribute();
   print(game);
   cnv.doubleClicked(doubleClick);
-  tileImg = loadImage("../media/TILE.png");
-  heartImg = loadImage("../media/HEART.png");
-  cloverImg = loadImage("../media/CLOVER.png");
-  spadeImg = loadImage("../media/SPADE.png");
-  backImg = loadImage("../media/dos_de_carte_maraad.png");
-  backgroundImg = loadImage("../media/background.png");
+  tileImg = loadImage("media/TILE.png");
+  heartImg = loadImage("media/HEART.png");
+  cloverImg = loadImage("media/CLOVER.png");
+  spadeImg = loadImage("media/SPADE.png");
+  backImg = loadImage("media/dos_de_carte_maraad.png");
+  backgroundImg = loadImage("media/background.png");
 
   cheat_finish = false;
   sentToPile = true;
